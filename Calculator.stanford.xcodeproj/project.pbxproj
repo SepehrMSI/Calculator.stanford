@@ -12,6 +12,7 @@
 		F46072791EFFA7C200F7E2B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46072771EFFA7C200F7E2B5 /* Main.storyboard */; };
 		F460727B1EFFA7C200F7E2B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F460727A1EFFA7C200F7E2B5 /* Assets.xcassets */; };
 		F460727E1EFFA7C200F7E2B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F460727C1EFFA7C200F7E2B5 /* LaunchScreen.storyboard */; };
+		F4AEEF6F1F014AB9002546A0 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AEEF6E1F014AB9002546A0 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		F460727A1EFFA7C200F7E2B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F460727D1EFFA7C200F7E2B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F460727F1EFFA7C200F7E2B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4995C9B1F0415210024DB5F /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		F4AEEF6E1F014AB9002546A0 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +59,12 @@
 			children = (
 				F46072731EFFA7C200F7E2B5 /* AppDelegate.swift */,
 				F46072751EFFA7C200F7E2B5 /* ViewController.swift */,
+				F4AEEF6E1F014AB9002546A0 /* File.swift */,
 				F46072771EFFA7C200F7E2B5 /* Main.storyboard */,
 				F460727A1EFFA7C200F7E2B5 /* Assets.xcassets */,
 				F460727C1EFFA7C200F7E2B5 /* LaunchScreen.storyboard */,
 				F460727F1EFFA7C200F7E2B5 /* Info.plist */,
+				F4995C9B1F0415210024DB5F /* MyPlayground.playground */,
 			);
 			path = Calculator.stanford;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F46072761EFFA7C200F7E2B5 /* ViewController.swift in Sources */,
+				F4AEEF6F1F014AB9002546A0 /* File.swift in Sources */,
 				F46072741EFFA7C200F7E2B5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +272,7 @@
 				DEVELOPMENT_TEAM = KD7534S99K;
 				INFOPLIST_FILE = Calculator.stanford/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Calculator-stanford";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Calculator.stanford;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -279,7 +285,7 @@
 				DEVELOPMENT_TEAM = KD7534S99K;
 				INFOPLIST_FILE = Calculator.stanford/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Calculator-stanford";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Calculator.stanford;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -304,6 +310,7 @@
 				F46072841EFFA7C200F7E2B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
